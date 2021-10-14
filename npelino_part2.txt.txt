@@ -1,0 +1,30 @@
+# Nolan Pelino
+# CSCE215.852
+# Final Project Part 2
+#############
+
+
+
+# Question 1:
+   
+
+	#!/bin/bash
+
+	FILENAME='input.txt'
+
+	for i in $FILENAME
+	do
+
+     	   for x in $i
+      	  do
+
+
+           	     if [[ "$x" ==  "*match*" ]];then
+                  	    	  echo $i >> matches.txt
+           	     else
+                	     	   echo $i >> mismatches.txt
+          	      fi
+    	    done
+	done
+
+

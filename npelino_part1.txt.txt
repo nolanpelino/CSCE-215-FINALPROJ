@@ -1,0 +1,27 @@
+# Nolan Pelino
+# CSCE215.852
+# Final Project Part 1
+#############
+
+
+
+# Question 1:
+    head -n -95 waldo.txt | tail -n -1
+
+# Question 2:
+    sort -n UnsortedList.txt
+       
+# Question 3: 
+    cat Headers.txt Data.txt > DataWithHeaders.txt
+
+#Question 4: 
+    find -type f -name 'file*.txt'
+
+#Question 5:
+
+sed -i 's/unix/Linux/ig'q:q
+ UnixIsGreat.txt 
+sed -i 's/a/the/ig' UnixIsGreat.txt
+sed -i 's/different/same/ig' UnixIsGreat.txt
+sed -i 's/Thompson/Torvalds/ig' UnixIsGreat.txt
+sed -i 's/Ritchie/Stallman/ig' UnixIsGreat.txt
